@@ -1,6 +1,7 @@
 variable "cidr" {}
 variable "env" {}
 
+/*
 resource "aws_vpc" "test-vpc" {
   cidr_block = var.cidr
 
@@ -8,3 +9,4 @@ resource "aws_vpc" "test-vpc" {
     Name = "vpc-${var.env}"
   }
 }
+*/
